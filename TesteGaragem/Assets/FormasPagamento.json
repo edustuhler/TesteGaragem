@@ -1,0 +1,28 @@
+{
+    "FormasPagamento": [
+        {
+            "Codigo":"DIN",
+            "Descricao":"Dinheiro"
+        },
+        {
+            "Codigo":"MEN",
+            "Descricao":"Mensalista"
+        },        
+        {
+            "Codigo":"PIX",
+            "Descricao":"PIX"
+        },
+        {
+            "Codigo":"TAG",
+            "Descricao":"TAG"
+        },
+        {
+            "Codigo":"CDE",
+            "Descricao":"Cartão de Débito"
+        },
+        {
+            "Codigo":"CCR",
+            "Descricao":"Cartão de Crédito"
+        }
+    ]
+}

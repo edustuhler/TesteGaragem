@@ -1,0 +1,40 @@
+{
+    "Garagens":
+    [
+        {
+            "Codigo":"EVO01",
+            "Nome": "Estamplaza Vila Olimpia",
+            "Preco_1aHora": "40",
+            "Preco_HorasExtra": "10",
+            "Preco_Mensalista": "550"
+        },
+        {
+            "Codigo":"PLJK01",
+            "Nome": "Plaza JK",
+            "Preco_1aHora": "35",
+            "Preco_HorasExtra": "12",
+            "Preco_Mensalista": "380"
+        },
+        {
+            "Codigo":"SZJK01",
+            "Nome": "Spazio JK",
+            "Preco_1aHora": "30",
+            "Preco_HorasExtra": "15",
+            "Preco_Mensalista": "350"
+        },
+        {
+            "Codigo":"CSLU01",
+            "Nome": "Condominio São Luiz",
+            "Preco_1aHora": "50",
+            "Preco_HorasExtra": "12",
+            "Preco_Mensalista": "550"
+        },
+        {
+            "Codigo":"COTO01",
+            "Nome": "Corporate Tower Itaim",
+            "Preco_1aHora": "30",
+            "Preco_HorasExtra": "12",
+            "Preco_Mensalista": "360"
+        }
+    ]
+}
