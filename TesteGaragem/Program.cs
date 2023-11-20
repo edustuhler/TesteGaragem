@@ -5,11 +5,11 @@ var builder = WebApplication.CreateBuilder(args);
 // Add services to the container.
 
 //Adicionar código para sincronizar o banco
-//builder.Services.<MethodDbContext>(options =>
+//builder.Services.<DbContext>(options =>
 //{
 //    options.UseNpgsql(connectionString, options =>
 //    {
-//        options.MigrationsAssembly(typeof(MethodDbContext).Assembly.FullName);
+//        options.MigrationsAssembly(typeof(DbContext).Assembly.FullName);
 //    });
 //});
 
@@ -32,7 +32,7 @@ app.UseAuthorization();
 //using (var scope = app.Services.CreateScope())
 //{
 
-//    var concreteContext = scope.ServiceProvider.GetService<MethodDbContext>();
+//    var concreteContext = scope.ServiceProvider.GetService<DbContext>();
 
 //    if (concreteContext != null)
 //    {
