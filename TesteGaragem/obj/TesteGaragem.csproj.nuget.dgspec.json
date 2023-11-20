@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\NoteDev-001\\Documents\\GitHub\\TesteGaragemSemDocker\\TesteGaragem\\TesteGaragem\\TesteGaragem.csproj": {}
+    "C:\\Users\\NoteDev-001\\Documents\\GitHub\\TesteGaragem\\TesteGaragem\\TesteGaragem\\TesteGaragem.csproj": {}
   },
   "projects": {
-    "C:\\Users\\NoteDev-001\\Documents\\GitHub\\TesteGaragemSemDocker\\TesteGaragem\\Application\\Application.csproj": {
+    "C:\\Users\\NoteDev-001\\Documents\\GitHub\\TesteGaragem\\TesteGaragem\\Application\\Application.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\NoteDev-001\\Documents\\GitHub\\TesteGaragemSemDocker\\TesteGaragem\\Application\\Application.csproj",
+        "projectUniqueName": "C:\\Users\\NoteDev-001\\Documents\\GitHub\\TesteGaragem\\TesteGaragem\\Application\\Application.csproj",
         "projectName": "Application",
-        "projectPath": "C:\\Users\\NoteDev-001\\Documents\\GitHub\\TesteGaragemSemDocker\\TesteGaragem\\Application\\Application.csproj",
+        "projectPath": "C:\\Users\\NoteDev-001\\Documents\\GitHub\\TesteGaragem\\TesteGaragem\\Application\\Application.csproj",
         "packagesPath": "C:\\Users\\NoteDev-001\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\NoteDev-001\\Documents\\GitHub\\TesteGaragemSemDocker\\TesteGaragem\\Application\\obj\\",
+        "outputPath": "C:\\Users\\NoteDev-001\\Documents\\GitHub\\TesteGaragem\\TesteGaragem\\Application\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\NoteDev-001\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -29,8 +29,8 @@
           "net7.0": {
             "targetAlias": "net7.0",
             "projectReferences": {
-              "C:\\Users\\NoteDev-001\\Documents\\GitHub\\TesteGaragemSemDocker\\TesteGaragem\\Domain\\Domain.csproj": {
-                "projectPath": "C:\\Users\\NoteDev-001\\Documents\\GitHub\\TesteGaragemSemDocker\\TesteGaragem\\Domain\\Domain.csproj"
+              "C:\\Users\\NoteDev-001\\Documents\\GitHub\\TesteGaragem\\TesteGaragem\\Domain\\Domain.csproj": {
+                "projectPath": "C:\\Users\\NoteDev-001\\Documents\\GitHub\\TesteGaragem\\TesteGaragem\\Domain\\Domain.csproj"
               }
             }
           }
@@ -70,14 +70,14 @@
         }
       }
     },
-    "C:\\Users\\NoteDev-001\\Documents\\GitHub\\TesteGaragemSemDocker\\TesteGaragem\\Domain\\Domain.csproj": {
+    "C:\\Users\\NoteDev-001\\Documents\\GitHub\\TesteGaragem\\TesteGaragem\\Domain\\Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\NoteDev-001\\Documents\\GitHub\\TesteGaragemSemDocker\\TesteGaragem\\Domain\\Domain.csproj",
+        "projectUniqueName": "C:\\Users\\NoteDev-001\\Documents\\GitHub\\TesteGaragem\\TesteGaragem\\Domain\\Domain.csproj",
         "projectName": "Domain",
-        "projectPath": "C:\\Users\\NoteDev-001\\Documents\\GitHub\\TesteGaragemSemDocker\\TesteGaragem\\Domain\\Domain.csproj",
+        "projectPath": "C:\\Users\\NoteDev-001\\Documents\\GitHub\\TesteGaragem\\TesteGaragem\\Domain\\Domain.csproj",
         "packagesPath": "C:\\Users\\NoteDev-001\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\NoteDev-001\\Documents\\GitHub\\TesteGaragemSemDocker\\TesteGaragem\\Domain\\obj\\",
+        "outputPath": "C:\\Users\\NoteDev-001\\Documents\\GitHub\\TesteGaragem\\TesteGaragem\\Domain\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\NoteDev-001\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -126,14 +126,14 @@
         }
       }
     },
-    "C:\\Users\\NoteDev-001\\Documents\\GitHub\\TesteGaragemSemDocker\\TesteGaragem\\TesteGaragem\\TesteGaragem.csproj": {
+    "C:\\Users\\NoteDev-001\\Documents\\GitHub\\TesteGaragem\\TesteGaragem\\TesteGaragem\\TesteGaragem.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\NoteDev-001\\Documents\\GitHub\\TesteGaragemSemDocker\\TesteGaragem\\TesteGaragem\\TesteGaragem.csproj",
+        "projectUniqueName": "C:\\Users\\NoteDev-001\\Documents\\GitHub\\TesteGaragem\\TesteGaragem\\TesteGaragem\\TesteGaragem.csproj",
         "projectName": "TesteGaragem",
-        "projectPath": "C:\\Users\\NoteDev-001\\Documents\\GitHub\\TesteGaragemSemDocker\\TesteGaragem\\TesteGaragem\\TesteGaragem.csproj",
+        "projectPath": "C:\\Users\\NoteDev-001\\Documents\\GitHub\\TesteGaragem\\TesteGaragem\\TesteGaragem\\TesteGaragem.csproj",
         "packagesPath": "C:\\Users\\NoteDev-001\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\NoteDev-001\\Documents\\GitHub\\TesteGaragemSemDocker\\TesteGaragem\\TesteGaragem\\obj\\",
+        "outputPath": "C:\\Users\\NoteDev-001\\Documents\\GitHub\\TesteGaragem\\TesteGaragem\\TesteGaragem\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\NoteDev-001\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -151,11 +151,11 @@
           "net7.0": {
             "targetAlias": "net7.0",
             "projectReferences": {
-              "C:\\Users\\NoteDev-001\\Documents\\GitHub\\TesteGaragemSemDocker\\TesteGaragem\\Application\\Application.csproj": {
-                "projectPath": "C:\\Users\\NoteDev-001\\Documents\\GitHub\\TesteGaragemSemDocker\\TesteGaragem\\Application\\Application.csproj"
+              "C:\\Users\\NoteDev-001\\Documents\\GitHub\\TesteGaragem\\TesteGaragem\\Application\\Application.csproj": {
+                "projectPath": "C:\\Users\\NoteDev-001\\Documents\\GitHub\\TesteGaragem\\TesteGaragem\\Application\\Application.csproj"
               },
-              "C:\\Users\\NoteDev-001\\Documents\\GitHub\\TesteGaragemSemDocker\\TesteGaragem\\Domain\\Domain.csproj": {
-                "projectPath": "C:\\Users\\NoteDev-001\\Documents\\GitHub\\TesteGaragemSemDocker\\TesteGaragem\\Domain\\Domain.csproj"
+              "C:\\Users\\NoteDev-001\\Documents\\GitHub\\TesteGaragem\\TesteGaragem\\Domain\\Domain.csproj": {
+                "projectPath": "C:\\Users\\NoteDev-001\\Documents\\GitHub\\TesteGaragem\\TesteGaragem\\Domain\\Domain.csproj"
               }
             }
           }

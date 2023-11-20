@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "4LCSBwXkxxqdyxxqoUx+PjGmoWQrDeoYUV+i4QQbV0GB8TK9J3bbuduCoM1Yrh5HFWzdY5A1xRTEN8xrZ/rirg==",
+  "dgSpecHash": "5BvBuGOYdqe8KyPDDwYHWfqe7+8t9hqr29B8gUlHudf+F0C2ghWZAGpjKuL+L8iPcOdGwagBD0KWk5lLqUw2YA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\NoteDev-001\\Documents\\GitHub\\TesteGaragemSemDocker\\TesteGaragem\\TesteGaragem\\TesteGaragem.csproj",
+  "projectFilePath": "C:\\Users\\NoteDev-001\\Documents\\GitHub\\TesteGaragem\\TesteGaragem\\TesteGaragem\\TesteGaragem.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\NoteDev-001\\.nuget\\packages\\microsoft.aspnetcore.openapi\\7.0.10\\microsoft.aspnetcore.openapi.7.0.10.nupkg.sha512",
     "C:\\Users\\NoteDev-001\\.nuget\\packages\\microsoft.extensions.apidescription.server\\6.0.5\\microsoft.extensions.apidescription.server.6.0.5.nupkg.sha512",

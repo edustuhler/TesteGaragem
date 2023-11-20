@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "6c+8KDxht9r05x/RM0rZsdiRUzvkXdO2eSV1K+UmfPKria4pozt0Qdm/vEEbGKKiJeDANJUTONmtKv8EkLglEw==",
+  "dgSpecHash": "opZuEk74+ZNczHdyEZ731v26Vk3QNzK3Xld7tvoCQG9d4sz5hflKot7NIB6I8VnBK95qGbYh1ryKhuepqe7H8g==",
   "success": true,
-  "projectFilePath": "C:\\Users\\NoteDev-001\\Documents\\GitHub\\TesteGaragemSemDocker\\TesteGaragem\\Domain\\Domain.csproj",
+  "projectFilePath": "C:\\Users\\NoteDev-001\\Documents\\GitHub\\TesteGaragem\\TesteGaragem\\Domain\\Domain.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

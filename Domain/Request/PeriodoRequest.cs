@@ -1,8 +1,8 @@
 ﻿using Domain.Model;
 
-namespace Domain.Json
+namespace Domain.Request
 {
-    public class ListaCarrosRequest
+    public class PeriodoRequest
     {
         public DateTime DataInicial { get; set; }
         public DateTime? DataFinal { get; set; }
