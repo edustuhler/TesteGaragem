@@ -101,5 +101,31 @@ namespace Application.Commands
 
             return fechamento;
         }
+    public static TempoMedioResponse CalcularTempoMedio(PeriodoRequest periodoRequest)
+        {
+            var jsonGaragens = File.ReadAllText(Path.Combine("Assets", "Garagens.json"), Encoding.UTF8);
+            var jsonPassagens = File.ReadAllText(Path.Combine("Assets", "Passagens.json"), Encoding.UTF8);
+
+            GaragemJson garagens = JsonConvert.DeserializeObject<GaragemJson>(jsonGaragens);
+            PassagemJson passagens = JsonConvert.DeserializeObject<PassagemJson>(jsonPassagens);
+
+            var tempoMedio = new TempoMedioResponse();
+
+            var passagensMensalistas = passagens.Passagens
+                        .Where(e => DateTime.Parse(e.DataHoraEntrada) >= periodoRequest.DataInicial)
+                        .Where(e => DateTime.Parse(e.DataHoraSaida) <= periodoRequest.DataFinal)
+                        .Where(e => e.FormaPagamento == "MEN").GroupBy(e => e.CarroPlaca);
+            tempoMedio.Mensalista = (decimal)(passagensMensalistas.ToList().Sum(e => e.Sum(e => (DateTime.Parse(e.DataHoraSaida) - DateTime.Parse(e.DataHoraEntrada)).TotalMinutes))/passagensMensalistas.Count());
+            
+            var passagensNaoMensalistas = passagens.Passagens
+                        .Where(e => DateTime.Parse(e.DataHoraEntrada) >= periodoRequest.DataInicial)
+                        .Where(e => DateTime.Parse(e.DataHoraSaida) <= periodoRequest.DataFinal)
+                        .Where(e => e.FormaPagamento != "MEN").GroupBy(e => e.CarroPlaca);
+            tempoMedio.NaoMensalista = (decimal)(passagensNaoMensalistas.ToList().Sum(e => e.Sum(e => (DateTime.Parse(e.DataHoraSaida) - DateTime.Parse(e.DataHoraEntrada)).TotalMinutes))/ passagensNaoMensalistas.Count());
+
+
+
+            return tempoMedio;
+        }
     }
 }

@@ -33,6 +33,12 @@ namespace TesteGaragem.Controllers
             return PassagemCommand.CalcularFechamento(periodoRequest);
         }
 
+        [HttpPost("tempomedio")]
+        public TempoMedioResponse TempoMedio([FromBody] PeriodoRequest periodoRequest)
+        {
+            return PassagemCommand.CalcularTempoMedio(periodoRequest);
+        }
+
         [HttpPost("carrosperiodo")]
         public ICollection<Carro> ListarCarrosPeriodo([FromBody] PeriodoRequest periodoRequest)
         {
